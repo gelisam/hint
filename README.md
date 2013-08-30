@@ -1,7 +1,10 @@
 Haskell Interpreter ("hint")
-============================
+===
 
 This is a GitHub mirror for Daniel Gorin's excellent [hint](http://hackage.haskell.org/package/hint) library, for those who, like me, are not familiar with darcs.
+
+Installation
+---
 
 The sole purpose of this branch is to display this README file. To compile hint, you should instead checkout the `darcs_import` branch as follows.
 
@@ -11,6 +14,11 @@ The sole purpose of this branch is to display this README file. To compile hint,
 You can then install the library using `cabal` or `cabal-dev`.
 
     > cabal-dev install hint
+    Registering hint-0.3.3.6...
+    Installed hint-0.3.3.6
+
+Usage
+---
 
 That's it! You can now use `eval` inside your Haskell programs. The `package-db` argument is only required if you used `cabal-dev`.
 
